@@ -145,10 +145,12 @@ header {
 }
 .content ul {
     list-style-image: url(./images-2/arrow_bullet.png);
-    padding-left: 20px;
+    /*padding-left: 20px;*/
+    list-style-position: inside;
 }
 .content ul li {
     padding: 5px 0;
+    list-style: none;
 }
 .content img {
     width: 30vh;
