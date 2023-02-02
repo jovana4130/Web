@@ -7,7 +7,9 @@ function getDogImage() { // Send an AJAX request to the Dog API
     xhr.onload = function () {
         if (xhr.status === 200) { // Extract the image URL from the response
             var response = JSON.parse(xhr.responseText);
+            console.log(response);
             var imageUrl = response.message;
+            console.log(imageUrl);
 
             // Create an image element and set its src to the image URL
             var image = document.createElement("img");
