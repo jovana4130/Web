@@ -8,12 +8,13 @@ function getCountryByIP() {
     a.onload = function () {
         if (a.readyState === 4 && a.status === 200) {
             var c = a.responseXML;
-            //console.log(c);
+            console.log(c);
             //var countryName = c.getElementsByTagName("geoplugin_countryName");
             var countryName = c.getElementsByTagName('geoplugin_countryName')[0].innerHTML;
             console.log(countryName);
             //[0].childNodes[0].nodeValue; = [0].innerHtml
             document.getElementById("result").textContent = countryName;
+            //document.getElementById("result").innerHTML = countryName;
         }
     };
     a.send();
