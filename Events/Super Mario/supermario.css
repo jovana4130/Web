@@ -1,0 +1,29 @@
+.container {
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+#supermario {
+    background-image: url(./images/mario.png);
+    height: 150px;
+    width: 120px;
+    position: absolute;
+    left: 650px;
+    bottom: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#supermariorun {
+    background-image: url(./images/mario_running.gif);
+    display: none;
+    height: 150px;
+    width: 120px;
+    position: absolute;
+    left: 650px;
+    bottom: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
