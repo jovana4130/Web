@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#changeColor {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#removeColor {
+    background-color: rgb(218, 227, 44);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+body {
+    background-color: rgb(60, 60, 101);
+}
+
+.color {
+    background-color: blueviolet;
+}
